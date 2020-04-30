@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-salt",
+  "version": "1.0.0",
+  "description": "</salt>'s ESLint rules",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "salt",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Levy Fekete <git@levy.dev>",
+  "license": "ISC"
+}
