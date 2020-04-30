@@ -7,6 +7,10 @@
     "lint": "eslint .",
     "prepublish": "safe-publish-latest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appliedtechnology/eslint-config-salt"
+  },
   "keywords": [
     "eslint",
     "eslintconfig",
