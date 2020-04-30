@@ -13,7 +13,6 @@ A ruleset based on [Airbnb's JavaScript Style Guide][airbnb].
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Issues](#issues)
 - [LICENSE](#license)
 
 ## Installation
@@ -24,8 +23,6 @@ should be installed as one of your project's `devDependencies`:
 ```
 npm install --save-dev eslint-config-salt
 ```
-
-This library has a required `peerDependencies` listing for [`eslint`][eslint]
 
 ## Usage
 
