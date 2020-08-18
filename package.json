@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "prepublish": "safe-publish-latest"
+    "prepare": "safe-publish-latest"
   },
   "repository": {
     "type": "git",
