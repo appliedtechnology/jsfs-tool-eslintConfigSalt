@@ -20,7 +20,7 @@
     "styleguide"
   ],
   "author": "Levy Fekete <git@levy.dev>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "safe-publish-latest": "^1.1.4"
   },
