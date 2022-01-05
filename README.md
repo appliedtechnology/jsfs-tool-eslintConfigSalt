@@ -1,6 +1,6 @@
 # eslint-config-salt
 
-&lt;/salt&gt;'s ESLint rules for all your course linting needs. 🧂  
+&lt;/salt&gt;'s ESLint rules for all your course linting needs. 🧂
 A ruleset based on [Airbnb's JavaScript Style Guide][airbnb].
 
 ---
@@ -56,18 +56,25 @@ The config for React are created as additions. Use the the following config:
 
 ```json
 {
-  "extends": [ "salt", "salt/react" ]
+  "extends": ["salt", "salt/react"]
 }
 ```
 
 And for the config in case you are using React Hooks:
 
-
 ```json
 {
-  "extends": [ "salt", "salt/react", "salt/react/hooks" ]
+  "extends": ["salt", "salt/react", "salt/react/hooks"]
 }
 ```
+
+## Comment on version 1.2.0
+
+This version has a hack to combat a bug in the `airbnb`-rules. [See this](https://github.com/airbnb/javascript/pull/2501).
+
+The hack is found in the `package.json` and ensure that we're using older versions of `eslint-config-airbnb` and `eslint-config-airbnb-–base`.
+
+Once the fix is published we'll update too.
 
 ## LICENSE
 

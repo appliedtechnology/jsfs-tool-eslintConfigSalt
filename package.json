@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-salt",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "</salt>'s ESLint rules",
   "main": "index.js",
   "scripts": {
@@ -19,18 +19,19 @@
     "javascript",
     "styleguide"
   ],
-  "author": "Levy Fekete <git@levy.dev>",
+  "author": "Levy Fekete <git@levy.dev>, Marcus Hammarberg <marcus@salt.dev>",
   "license": "MIT",
   "devDependencies": {
     "safe-publish-latest": "^1.1.4"
   },
   "dependencies": {
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb": "18.2.0",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-jsx-a11y": "^6.3.0",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^4.1.0"
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
   },
   "engines": {
     "node": ">=8"
